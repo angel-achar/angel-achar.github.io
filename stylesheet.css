@@ -1,0 +1,106 @@
+/* Tag selector: styles the <body> tag */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fdf0f3;
+  color: #3a2a2e;
+  margin: 0;
+}
+
+/* Tag selector for headings */
+h2 {
+  color: #b0435a;
+  margin-top: 0;
+}
+
+/* id: the header at the top of the page */
+#header {
+  background-color: #f9d5de;
+  text-align: center;
+  padding: 40px 20px;
+  border-bottom: 4px dotted #f3a6b8;
+}
+
+#header img {
+  width: 200px;
+}
+
+#header h1 {
+  color: #b0435a;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+/* class: used on every content section (box model: padding, margin, border) */
+.section {
+  background-color: #ffffff;
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 25px 30px;
+  border: 3px solid #f3c1cd;
+  border-radius: 30px;
+}
+
+/* Each section is a different makeup product with its own pastel color */
+.blush {
+  background-color: #ffe4ea;
+}
+
+.eyeshadow {
+  background-color: #ece4fb;
+  border-color: #cdbdf2;
+}
+
+.highlighter {
+  background-color: #fff6dc;
+  border-color: #f4dd9a;
+}
+
+.gloss {
+  background-color: #ffe9df;
+  border-color: #f7c4ad;
+}
+
+/* The little round color dot at the top of each product */
+.swatch {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  background-color: #f3a6b8;
+  float: right;
+}
+
+.eyeshadow .swatch {
+  background-color: #a68be0;
+}
+
+.highlighter .swatch {
+  background-color: #f2cf6b;
+}
+
+.gloss .swatch {
+  background-color: #ee9a86;
+}
+
+/* class: used on each experience/project card */
+.shade {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+}
+
+.shade h3 {
+  margin: 5px 0;
+}
+
+/* Links */
+a {
+  color: #b0435a;
+  font-weight: bold;
+}
+
+/* Link color changes on hover */
+a:hover {
+  color: #7a5ac8;
+}
